@@ -3,13 +3,12 @@
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: #4fc8eb;
 }
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
-  display: flex;
+  background-image: linear-gradient(to right top, #746bd1, #5287e3, #319fec, #2db5ee, #4fc8eb, #54cbec, #5acfee, #5fd2ef, #45c7f6, #38bafb, #44acfd, #5f9cfb);  display: flex;
   justify-content: center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
@@ -64,4 +63,8 @@ h1 {
 .tecla.active:focus,
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+}
+
+audio {
+  display: none;
 }
